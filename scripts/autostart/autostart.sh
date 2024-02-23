@@ -1,4 +1,4 @@
-#
+
 #                  __           ____             ____ _____
 #                 / _| ___ _ __|  _ \  _____   _|___ \___  |
 #                | |_ / _ \ '__| | | |/ _ \ \ / / __) | / /
@@ -19,7 +19,7 @@ xset r rate 300 35 &
 xbanish &
 
 # Keyboard
-setxkbmap -option "caps:escape_shifted_capslock" &
+setxkbmap latam -option "caps:escape_shifted_capslock" &
 
 # Notifications 
 dunst &

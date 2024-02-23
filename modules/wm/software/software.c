@@ -1,10 +1,10 @@
 // Main software 
 const char MY_TERMINAL[] = "st";
 const char MY_MENU[] = "dmenu_run -l 15 -c -p '󰌧 '";
-const char MY_BROWSER[] = "qutebrowser";
+const char MY_BROWSER[] = "firefox-esr";
 const char MOD_COLORTEMP[] = "redshift -O 4400";
 const char RESET_COLORTEMP[] = "redshift -x";
-const char CODE_EDITOR[] = "code";
+const char CODE_EDITOR[] = "nvim";
 
 const char SCRIPT_SC[] = "$HOME/.config/dwm/scripts/util/screenshot";
 const char SCRIPT_SC_SELECTED[] = "$HOME/.config/dwm/scripts/util/screenshot-s";

@@ -9,6 +9,6 @@
 
 # GitHub: https://github.com/ferDev27
 
-UPDS=$(checkupdates | wc -l)
+UPDS=$(apk list --upgradable | wc -l)
 echo "   $UPDS"
 
