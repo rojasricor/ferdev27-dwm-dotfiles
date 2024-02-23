@@ -19,7 +19,7 @@ xset r rate 300 35 &
 xbanish &
 
 # Keyboard
-setxkbmap latam -option "caps:escape_shifted_capslock" &
+setxkbmap latam &
 
 # Notifications 
 dunst &
